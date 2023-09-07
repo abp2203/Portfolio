@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,600&display=swap');
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #f7f7f7;
+    font-size: 16px;
+}
+
+.Social_Media {
+    text-align: right;
+    padding: 10px;
+}
+
+.social-icon {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+header {
+    background-color: #3498DB;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    transition: transform 0.2s, color 0.2s; 
+    display: inline-block; 
+    padding: 10px; 
+}
+
+nav a:hover {
+    transform: scale(1.1);
+    color: royalblue;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); 
+}
+
+.photo {
+    max-width: 200px;
+    margin: 0;
+}
+
+.photo img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 525px;
+}
+
+section {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: 20px;
+    font-family: 'Titillium Web', sans-serif;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+section:hover {
+    transform: translateY(-5px);
+}
+
+
+header:hover, footer:hover {
+    transform: none;
+}
+
+section h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+
+.institution {
+    margin-top: 10px;
+}
+
+p {
+    font-size: 18px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+}
